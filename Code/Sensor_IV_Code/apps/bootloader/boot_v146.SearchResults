@@ -1,0 +1,8 @@
+---- read_from_flash_to_buff Matches (7 in 4 files) ----
+Boot.c (boot):	read_from_flash_to_buff(BOOT_INFO_START_ADDR, &code_start_page, 2);
+Boot.c (boot):	read_from_flash_to_buff(BOOT_INFO_START_ADDR, &code_end_page, 2);
+Boot.c (boot):	read_from_flash_to_buff(0Xfc00+8, &code_start_page, 2);
+Boot.c (boot):	read_from_flash_to_buff(0Xfc00+12, &code_end_page, 2);
+Inchip_flash.c (inchip_flash):void read_from_flash_to_buff(uint32_t addr, uint16_t *buff, uint16_t len)
+Inchip_flash.h (inchip_flash):void read_from_flash_to_buff(uint32_t addr, uint16_t *buff, uint16_t len);
+State.c (state):	read_from_flash_to_buff(0xfc00, (uint16_t *)param_buff, 256);

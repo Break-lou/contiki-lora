@@ -1,0 +1,22 @@
+// Copyright (c) 2014
+
+#ifndef __MYLINKEROPTIONS_SCT__
+#define __MYLINKEROPTIONS_SCT__
+
+//==============================================================================
+// Application-dependent linker options - included by linker_<device>.h
+//==============================================================================
+
+//------------------------------------------------------------------------------
+// MCU:
+# define si32LinkerOption_mcu_sim3l14x 1
+
+//------------------------------------------------------------------------------
+// Stack Size:
+# define si32LinkerOption_stack_size 0x00000200
+
+//------------------------------------------------------------------------------
+// Heap Size:
+# define si32LinkerOption_heap_size 0x00000200
+
+#endif //__MYLINKEROPTIONS_SCT__

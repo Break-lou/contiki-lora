@@ -1,0 +1,79 @@
+#! armcc -E -I.
+//------------------------------------------------------------------------------
+// Copyright (c) 2011 by Silicon Laboratories Inc.  All rights reserved.
+// The program contained in this listing is proprietary to Silicon Laboratories,
+// headquartered in Austin, Texas, U.S.A. and is subject to worldwide copyright
+// protection, including protection under the United States Copyright Act of 1976
+// as an unpublished work, pursuant to Section 104 and Section 408 of Title XVII
+// of the United States code.  Unauthorized copying, adaptation, distribution,
+// use, or display is prohibited by this law.
+//
+// Silicon Laboratories provides this software solely and exclusively
+// for use on Silicon Laboratories' microcontroller products.
+//
+// This software is provided "as is".  NO WARRANTIES, WHETHER EXPRESS, IMPLIED
+// OR STATUTORY, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF
+// MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE APPLY TO THIS SOFTWARE.
+// SILICON LABORATORIES SHALL NOT, IN ANY CIRCUMSTANCES, BE LIABLE FOR SPECIAL,
+// INCIDENTAL, OR CONSEQUENTIAL DAMAGES, FOR ANY REASON WHATSOEVER.
+//------------------------------------------------------------------------------
+#include "myLinkerOptions.sct"
+
+#define SI32_MCU_FLASH_BASE             0x00000000
+#define SI32_MCU_RAM_BASE               0x20000000
+
+#if si32LinkerOption_mcu_sim3u16x
+# define SI32_MCU_FLASH_SIZE            0x0003FFFC
+# define SI32_MCU_RAM_SIZE              0x00008000
+#elif si32LinkerOption_mcu_sim3u15x
+# define SI32_MCU_FLASH_SIZE            0x00020000
+# define SI32_MCU_RAM_SIZE              0x00008000
+#elif si32LinkerOption_mcu_sim3u14x
+# define SI32_MCU_FLASH_SIZE            0x00010000
+# define SI32_MCU_RAM_SIZE              0x00004000
+#else //si32LinkerOption_mcu_sim3u13x
+# define SI32_MCU_FLASH_SIZE            0x00008000
+# define SI32_MCU_RAM_SIZE              0x00002000
+#endif
+
+#define SI32_MCU_RETENTION_RAM_BASE     SI32_MCU_RAM_BASE
+#define SI32_MCU_RETENTION_RAM_SIZE     0x00001000
+
+#define SI32_MCU_EMIF_BASE              0x60000000
+#define SI32_MCU_EMIF_SIZE              0x08000000
+
+;; Load region is the on-chip FLASH
+LR_MCU_FLASH SI32_MCU_FLASH_BASE SI32_MCU_FLASH_SIZE
+{
+  ;; Internal FLASH
+  MCU_FLASH +0  {
+   *.o (RESET, +First)
+   *(InRoot$$Sections)
+   .ANY (+RO)
+  }
+  ;; Internal Retention RAM
+  MCU_RRAM SI32_MCU_RETENTION_RAM_BASE UNINIT SI32_MCU_RETENTION_RAM_SIZE  {
+   .ANY (.SI32.RETENTION)
+  }
+  ;; Application data follows retention area in Internal RAM 
+  MCU_IRAM +0  {
+   .ANY (+RW +ZI)
+  }
+  ;; Heap follows application data in Internal RAM
+  ARM_LIB_HEAP +0 EMPTY si32LinkerOption_heap_size  {
+  }
+  ;; Stack is at the top of Internal RAM
+  ARM_LIB_STACK (SI32_MCU_RAM_BASE + SI32_MCU_RAM_SIZE) EMPTY -si32LinkerOption_stack_size  {
+  }
+  ;; EMIF Chip Select 0
+  MCU_EMIF_CS0 SI32_MCU_EMIF_BASE SI32_MCU_EMIF_SIZE  {
+   .ANY (.SI32.EMIF_CS0)
+  }
+  ;; EMIF Chip Select 1
+  MCU_EMIF_CS1 (SI32_MCU_EMIF_BASE + SI32_MCU_EMIF_SIZE) SI32_MCU_EMIF_SIZE  {
+   .ANY (.SI32.EMIF_CS1)
+  }
+  ;; Assert if the sum of RAM regions grows larger than the Internal RAM
+  ScatterAssert(ImageLength(MCU_RRAM) + ImageLength(MCU_IRAM)
+              + ImageLength(ARM_LIB_HEAP) + ImageLength(ARM_LIB_STACK) <= SI32_MCU_RAM_SIZE)
+}

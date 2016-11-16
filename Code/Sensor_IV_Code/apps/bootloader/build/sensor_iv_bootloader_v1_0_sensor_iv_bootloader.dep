@@ -1,0 +1,832 @@
+Dependencies for Project 'sensor_iv_bootloader_v1_0', Target 'sensor_iv_bootloader': (DO NOT MODIFY !)
+F (..\..\hal\drivers\si32Hal\CPU\retarget_arm.c)(0x55EF92B0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\retarget_arm.o --omf_browse build\retarget_arm.crf --depend build\retarget_arm.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\si32_device.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\sim3l1xx.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\CPU\core_cm3.h)(0x55EF92B0)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\CPU\core_cmInstr.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\CPU\core_cmFunc.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\system_sim3l1xx.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ACCTR_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_AES_B_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_CMP_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ECRC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DCDC_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DMACTRL_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DMADESC_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DTM_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ENCDEC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EPCA_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EPCACH_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EXTOSC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_FLASHCTRL_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_I2C_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_IDAC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_LCD_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_LPTIMER_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_PLL_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_PVTOSC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_RTC_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SARADC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SPI_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_TIMER_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_UART_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_USART_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VMON_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VREF_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_WDTIMER_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_CLKCTRL_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_DEVICEID_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_DMAXBAR_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_LDO_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_LOCK_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBCFG_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBSTD_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBGP_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PMU_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_RSTSRC_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_SCONFIG_A_Registers.h)(0x55EF92B2)
+F (..\..\hal\drivers\si32Hal\sim3l1xx\startup_sim3l1xx_arm.s)(0x55EF92B2)(--cpu Cortex-M3 -g --apcs=interwork -I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 513"--list build\startup_sim3l1xx_arm.lst --xref -o build\startup_sim3l1xx_arm.o --depend build\startup_sim3l1xx_arm.d)
+F (..\..\hal\drivers\si32Hal\sim3l1xx\system_sim3l1xx.c)(0x55EF92B2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\system_sim3l1xx.o --omf_browse build\system_sim3l1xx.crf --depend build\system_sim3l1xx.d)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\sim3l1xx.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\CPU\core_cm3.h)(0x55EF92B0)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\CPU\core_cmInstr.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\CPU\core_cmFunc.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\system_sim3l1xx.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ACCTR_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_AES_B_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_CMP_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ECRC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DCDC_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DMACTRL_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DMADESC_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DTM_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ENCDEC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EPCA_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EPCACH_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EXTOSC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_FLASHCTRL_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_I2C_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_IDAC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_LCD_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_LPTIMER_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_PLL_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_PVTOSC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_RTC_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SARADC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SPI_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_TIMER_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_UART_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_USART_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VMON_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VREF_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_WDTIMER_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_CLKCTRL_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_DEVICEID_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_DMAXBAR_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_LDO_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_LOCK_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBCFG_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBSTD_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBGP_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PMU_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_RSTSRC_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_SCONFIG_A_Registers.h)(0x55EF92B2)
+F (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EXTOSC_A_Type.c)(0x55EF92B1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_extosc_a_type.o --omf_browse build\si32_extosc_a_type.crf --depend build\si32_extosc_a_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EXTOSC_A_Type.h)(0x55EF92B1)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EXTOSC_A_Registers.h)(0x55EF92B1)
+F (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_PLL_A_Type.c)(0x55EF92B1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_pll_a_type.o --omf_browse build\si32_pll_a_type.crf --depend build\si32_pll_a_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_PLL_A_Type.h)(0x55EF92B1)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_PLL_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_PLL_A_Support.h)(0x55EF92B1)
+F (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_RTC_B_Type.c)(0x55EF92B1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_rtc_b_type.o --omf_browse build\si32_rtc_b_type.crf --depend build\si32_rtc_b_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_RTC_B_Type.h)(0x55EF92B1)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_RTC_B_Registers.h)(0x55EF92B1)
+F (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SARADC_A_Type.c)(0x55EF92B1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_saradc_a_type.o --omf_browse build\si32_saradc_a_type.crf --depend build\si32_saradc_a_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SARADC_A_Type.h)(0x55EF92B1)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SARADC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SARADC_A_Support.h)(0x55EF92B1)
+F (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_CMP_A_Type.c)(0x55EF92B0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_cmp_a_type.o --omf_browse build\si32_cmp_a_type.crf --depend build\si32_cmp_a_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_CMP_A_Type.h)(0x55EF92B0)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_CMP_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_CMP_A_Support.h)(0x55EF92B0)
+F (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_IDAC_A_Type.c)(0x55EF92B1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_idac_a_type.o --omf_browse build\si32_idac_a_type.crf --depend build\si32_idac_a_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_IDAC_A_Type.h)(0x55EF92B1)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_IDAC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_IDAC_A_Support.h)(0x55EF92B1)
+F (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_PVTOSC_A_Type.c)(0x55EF92B1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_pvtosc_a_type.o --omf_browse build\si32_pvtosc_a_type.crf --depend build\si32_pvtosc_a_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_PVTOSC_A_Type.h)(0x55EF92B1)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_PVTOSC_A_Registers.h)(0x55EF92B1)
+F (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_I2C_A_Type.c)(0x55EF92B1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_i2c_a_type.o --omf_browse build\si32_i2c_a_type.crf --depend build\si32_i2c_a_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_I2C_A_Type.h)(0x55EF92B1)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_I2C_A_Registers.h)(0x55EF92B1)
+F (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_LCD_A_Type.c)(0x55EF92B1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_lcd_a_type.o --omf_browse build\si32_lcd_a_type.crf --depend build\si32_lcd_a_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_LCD_A_Type.h)(0x55EF92B1)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_LCD_A_Registers.h)(0x55EF92B1)
+F (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SPI_B_Type.c)(0x55EF92B1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_spi_b_type.o --omf_browse build\si32_spi_b_type.crf --depend build\si32_spi_b_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SPI_B_Type.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SPI_B_Support.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SPI_B_Registers.h)(0x55EF92B1)
+F (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_USART_B_Type.c)(0x55EF92B2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_usart_b_type.o --omf_browse build\si32_usart_b_type.crf --depend build\si32_usart_b_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_USART_B_Type.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_USART_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_USART_B_Support.h)(0x55EF92B2)
+F (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_UART_B_Type.c)(0x55EF92B2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_uart_b_type.o --omf_browse build\si32_uart_b_type.crf --depend build\si32_uart_b_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_UART_B_Type.h)(0x5642E87D)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_UART_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_UART_B_Support.h)(0x55EF92B2)
+F (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_FLASHCTRL_A_Type.c)(0x55EF92B1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_flashctrl_a_type.o --omf_browse build\si32_flashctrl_a_type.crf --depend build\si32_flashctrl_a_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_FLASHCTRL_A_Type.h)(0x55EF92B1)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_FLASHCTRL_A_Registers.h)(0x55EF92B1)
+F (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DCDC_A_Type.c)(0x55EF92B0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_dcdc_a_type.o --omf_browse build\si32_dcdc_a_type.crf --depend build\si32_dcdc_a_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DCDC_A_Type.h)(0x55EF92B0)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DCDC_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DCDC_A_Support.h)(0x55EF92B0)
+F (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VMON_B_Type.c)(0x55EF92B2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_vmon_b_type.o --omf_browse build\si32_vmon_b_type.crf --depend build\si32_vmon_b_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VMON_B_Type.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VMON_B_Registers.h)(0x55EF92B2)
+F (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VREF_B_Type.c)(0x55EF92B2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_vref_b_type.o --omf_browse build\si32_vref_b_type.crf --depend build\si32_vref_b_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VREF_B_Type.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VREF_B_Registers.h)(0x55EF92B2)
+F (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_LPTIMER_B_Type.c)(0x55EF92B1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_lptimer_b_type.o --omf_browse build\si32_lptimer_b_type.crf --depend build\si32_lptimer_b_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_LPTIMER_B_Type.h)(0x55EF92B1)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_LPTIMER_B_Registers.h)(0x55EF92B1)
+F (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EPCA_A_Type.c)(0x55EF92B1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_epca_a_type.o --omf_browse build\si32_epca_a_type.crf --depend build\si32_epca_a_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EPCA_A_Type.h)(0x55EF92B1)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EPCA_A_Registers.h)(0x55EF92B1)
+F (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EPCACH_A_Type.c)(0x55EF92B1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_epcach_a_type.o --omf_browse build\si32_epcach_a_type.crf --depend build\si32_epcach_a_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EPCACH_A_Type.h)(0x55EF92B1)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EPCACH_A_Registers.h)(0x55EF92B1)
+F (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_TIMER_A_Type.c)(0x55EF92B2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_timer_a_type.o --omf_browse build\si32_timer_a_type.crf --depend build\si32_timer_a_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_TIMER_A_Type.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_TIMER_A_Registers.h)(0x55EF92B2)
+F (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_WDTIMER_A_Type.c)(0x55EF92B2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_wdtimer_a_type.o --omf_browse build\si32_wdtimer_a_type.crf --depend build\si32_wdtimer_a_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_WDTIMER_A_Type.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_WDTIMER_A_Registers.h)(0x55EF92B2)
+F (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_AES_B_Type.c)(0x55EF92B0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_aes_b_type.o --omf_browse build\si32_aes_b_type.crf --depend build\si32_aes_b_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_AES_B_Type.h)(0x55EF92B0)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_AES_B_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_AES_B_Support.h)(0x55EF92B0)
+F (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ECRC_A_Type.c)(0x55EF92B1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_ecrc_a_type.o --omf_browse build\si32_ecrc_a_type.crf --depend build\si32_ecrc_a_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ECRC_A_Type.h)(0x55EF92B1)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ECRC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ECRC_A_Support.h)(0x55EF92B1)
+F (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ENCDEC_A_Type.c)(0x55EF92B1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_encdec_a_type.o --omf_browse build\si32_encdec_a_type.crf --depend build\si32_encdec_a_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ENCDEC_A_Type.h)(0x55EF92B1)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ENCDEC_A_Registers.h)(0x55EF92B1)
+F (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ACCTR_A_Type.c)(0x55EF92B0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_acctr_a_type.o --omf_browse build\si32_acctr_a_type.crf --depend build\si32_acctr_a_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ACCTR_A_Type.h)(0x55EF92B0)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ACCTR_A_Registers.h)(0x55EF92B0)
+F (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PMU_A_Type.c)(0x55EF92B2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_pmu_a_type.o --omf_browse build\si32_pmu_a_type.crf --depend build\si32_pmu_a_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PMU_A_Type.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PMU_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PMU_A_Support.h)(0x55EF92B2)
+F (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_LDO_A_Type.c)(0x55EF92B2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_ldo_a_type.o --omf_browse build\si32_ldo_a_type.crf --depend build\si32_ldo_a_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_LDO_A_Type.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_LDO_A_Registers.h)(0x55EF92B2)
+F (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_LOCK_A_Type.c)(0x55EF92B2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_lock_a_type.o --omf_browse build\si32_lock_a_type.crf --depend build\si32_lock_a_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_LOCK_A_Type.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_LOCK_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_LOCK_A_Support.h)(0x55EF92B2)
+F (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_RSTSRC_A_Type.c)(0x55EF92B2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\si32_rstsrc_a_type.o --omf_browse build\si32_rstsrc_a_type.crf --depend build\si32_rstsrc_a_type.d)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_RSTSRC_A_Type.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_RSTSRC_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_RSTSRC_A_Support.h)(0x55EF92B2)
+F (main.c)(0x55EF9294)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\main.o --omf_browse build\main.crf --depend build\main.d)
+I (.\arch\system_init.h)(0x55EF9292)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_CLKCTRL_A_Type.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_CLKCTRL_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_CLKCTRL_A_Support.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\Si32_device.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\sim3l1xx.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\CPU\core_cm3.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\CPU\core_cmInstr.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\CPU\core_cmFunc.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\system_sim3l1xx.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ACCTR_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_AES_B_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_CMP_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ECRC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DCDC_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DMACTRL_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DMADESC_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DTM_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ENCDEC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EPCA_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EPCACH_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EXTOSC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_FLASHCTRL_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_I2C_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_IDAC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_LCD_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_LPTIMER_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_PLL_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_PVTOSC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_RTC_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SARADC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SPI_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_TIMER_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_UART_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_USART_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VMON_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VREF_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_WDTIMER_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_DEVICEID_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_DMAXBAR_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_LDO_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_LOCK_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBCFG_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBSTD_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBGP_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PMU_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_RSTSRC_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_SCONFIG_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PBSTD_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_WDTIMER_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PBCFG_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PBCFG_A_Support.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_RSTSRC_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_RSTSRC_A_Support.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PBGP_A_Type.h)(0x55EF92B2)
+I (.\inchip_flash\inchip_flash.h)(0x55EF9294)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_FLASHCTRL_A_Type.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VMON_B_Type.h)(0x55EF92B2)
+I (.\ext_flash\ext_flash_include.h)(0x55EF9294)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SPI_B_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SPI_B_Support.h)(0x55EF92B1)
+I (.\ext_flash\ext_flash_mcu.h)(0x55EF9294)
+I (.\arch\board_cfg.h)(0x55EF9292)
+I (.\ext_flash\ext_flash_hal.h)(0x55EF9294)
+I (.\ext_flash\ext_flash_tat.h)(0x55EF9294)
+I (.\boot\boot.h)(0x55EF9292)
+F (.\arch\system_init.c)(0x55EF9292)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\system_init.o --omf_browse build\system_init.crf --depend build\system_init.d)
+I (.\arch\system_init.h)(0x55EF9292)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_CLKCTRL_A_Type.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_CLKCTRL_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_CLKCTRL_A_Support.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\Si32_device.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\sim3l1xx.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\CPU\core_cm3.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\CPU\core_cmInstr.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\CPU\core_cmFunc.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\system_sim3l1xx.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ACCTR_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_AES_B_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_CMP_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ECRC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DCDC_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DMACTRL_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DMADESC_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DTM_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ENCDEC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EPCA_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EPCACH_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EXTOSC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_FLASHCTRL_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_I2C_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_IDAC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_LCD_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_LPTIMER_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_PLL_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_PVTOSC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_RTC_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SARADC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SPI_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_TIMER_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_UART_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_USART_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VMON_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VREF_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_WDTIMER_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_DEVICEID_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_DMAXBAR_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_LDO_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_LOCK_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBCFG_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBSTD_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBGP_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PMU_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_RSTSRC_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_SCONFIG_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PBSTD_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_WDTIMER_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PBCFG_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PBCFG_A_Support.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_RSTSRC_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_RSTSRC_A_Support.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PBGP_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DCDC_A_Type.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DCDC_A_Support.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PMU_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PMU_A_Support.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_LCD_A_Type.h)(0x55EF92B1)
+I (arch\board_cfg.h)(0x55EF9292)
+F (.\ext_flash\ext_flash_hal.c)(0x55EF9294)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\ext_flash_hal.o --omf_browse build\ext_flash_hal.crf --depend build\ext_flash_hal.d)
+I (ext_flash\ext_flash_include.h)(0x55EF9294)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\Si32_device.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\sim3l1xx.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\CPU\core_cm3.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\CPU\core_cmInstr.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\CPU\core_cmFunc.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\system_sim3l1xx.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ACCTR_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_AES_B_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_CMP_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ECRC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DCDC_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DMACTRL_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DMADESC_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DTM_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ENCDEC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EPCA_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EPCACH_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EXTOSC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_FLASHCTRL_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_I2C_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_IDAC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_LCD_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_LPTIMER_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_PLL_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_PVTOSC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_RTC_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SARADC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SPI_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_TIMER_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_UART_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_USART_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VMON_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VREF_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_WDTIMER_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_CLKCTRL_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_DEVICEID_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_DMAXBAR_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_LDO_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_LOCK_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBCFG_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBSTD_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBGP_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PMU_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_RSTSRC_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_SCONFIG_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SPI_B_Type.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SPI_B_Support.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PBCFG_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PBCFG_A_Support.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_CLKCTRL_A_Support.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_CLKCTRL_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_FLASHCTRL_A_Type.h)(0x55EF92B1)
+I (.\ext_flash\ext_flash_mcu.h)(0x55EF9294)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PBSTD_A_Type.h)(0x55EF92B2)
+I (.\arch\board_cfg.h)(0x55EF9292)
+I (.\ext_flash\ext_flash_hal.h)(0x55EF9294)
+I (.\ext_flash\ext_flash_tat.h)(0x55EF9294)
+F (.\ext_flash\ext_flash_mcu.c)(0x55EF9294)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\ext_flash_mcu.o --omf_browse build\ext_flash_mcu.crf --depend build\ext_flash_mcu.d)
+I (ext_flash\ext_flash_include.h)(0x55EF9294)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\Si32_device.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\sim3l1xx.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\CPU\core_cm3.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\CPU\core_cmInstr.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\CPU\core_cmFunc.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\system_sim3l1xx.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ACCTR_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_AES_B_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_CMP_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ECRC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DCDC_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DMACTRL_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DMADESC_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DTM_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ENCDEC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EPCA_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EPCACH_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EXTOSC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_FLASHCTRL_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_I2C_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_IDAC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_LCD_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_LPTIMER_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_PLL_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_PVTOSC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_RTC_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SARADC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SPI_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_TIMER_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_UART_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_USART_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VMON_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VREF_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_WDTIMER_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_CLKCTRL_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_DEVICEID_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_DMAXBAR_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_LDO_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_LOCK_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBCFG_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBSTD_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBGP_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PMU_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_RSTSRC_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_SCONFIG_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SPI_B_Type.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SPI_B_Support.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PBCFG_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PBCFG_A_Support.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_CLKCTRL_A_Support.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_CLKCTRL_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_FLASHCTRL_A_Type.h)(0x55EF92B1)
+I (.\ext_flash\ext_flash_mcu.h)(0x55EF9294)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PBSTD_A_Type.h)(0x55EF92B2)
+I (.\arch\board_cfg.h)(0x55EF9292)
+I (.\ext_flash\ext_flash_hal.h)(0x55EF9294)
+I (.\ext_flash\ext_flash_tat.h)(0x55EF9294)
+I (.\arch\system_init.h)(0x55EF9292)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_WDTIMER_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_RSTSRC_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_RSTSRC_A_Support.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PBGP_A_Type.h)(0x55EF92B2)
+F (.\ext_flash\ext_flash_tat.c)(0x55EF9294)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\ext_flash_tat.o --omf_browse build\ext_flash_tat.crf --depend build\ext_flash_tat.d)
+I (.\ext_flash\ext_flash_include.h)(0x55EF9294)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\Si32_device.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\sim3l1xx.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\CPU\core_cm3.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\CPU\core_cmInstr.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\CPU\core_cmFunc.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\system_sim3l1xx.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ACCTR_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_AES_B_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_CMP_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ECRC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DCDC_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DMACTRL_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DMADESC_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DTM_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ENCDEC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EPCA_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EPCACH_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EXTOSC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_FLASHCTRL_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_I2C_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_IDAC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_LCD_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_LPTIMER_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_PLL_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_PVTOSC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_RTC_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SARADC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SPI_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_TIMER_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_UART_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_USART_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VMON_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VREF_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_WDTIMER_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_CLKCTRL_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_DEVICEID_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_DMAXBAR_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_LDO_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_LOCK_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBCFG_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBSTD_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBGP_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PMU_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_RSTSRC_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_SCONFIG_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SPI_B_Type.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SPI_B_Support.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PBCFG_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PBCFG_A_Support.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_CLKCTRL_A_Support.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_CLKCTRL_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_FLASHCTRL_A_Type.h)(0x55EF92B1)
+I (.\ext_flash\ext_flash_mcu.h)(0x55EF9294)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PBSTD_A_Type.h)(0x55EF92B2)
+I (.\arch\board_cfg.h)(0x55EF9292)
+I (.\ext_flash\ext_flash_hal.h)(0x55EF9294)
+I (.\ext_flash\ext_flash_tat.h)(0x55EF9294)
+F (.\inchip_flash\inchip_flash.c)(0x55EF9294)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\inchip_flash.o --omf_browse build\inchip_flash.crf --depend build\inchip_flash.d)
+I (.\inchip_flash\inchip_flash.h)(0x55EF9294)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\Si32_device.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\sim3l1xx.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\CPU\core_cm3.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\CPU\core_cmInstr.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\CPU\core_cmFunc.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\system_sim3l1xx.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ACCTR_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_AES_B_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_CMP_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ECRC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DCDC_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DMACTRL_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DMADESC_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DTM_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ENCDEC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EPCA_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EPCACH_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EXTOSC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_FLASHCTRL_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_I2C_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_IDAC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_LCD_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_LPTIMER_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_PLL_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_PVTOSC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_RTC_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SARADC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SPI_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_TIMER_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_UART_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_USART_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VMON_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VREF_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_WDTIMER_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_CLKCTRL_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_DEVICEID_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_DMAXBAR_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_LDO_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_LOCK_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBCFG_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBSTD_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBGP_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PMU_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_RSTSRC_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_SCONFIG_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_FLASHCTRL_A_Type.h)(0x55EF92B1)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VMON_B_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_RSTSRC_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_RSTSRC_A_Support.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_CLKCTRL_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_CLKCTRL_A_Support.h)(0x55EF92B2)
+F (.\boot\boot.c)(0x55EF9292)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\boot.o --omf_browse build\boot.crf --depend build\boot.d)
+I (.\boot\boot.h)(0x55EF9292)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\inchip_flash\inchip_flash.h)(0x55EF9294)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\Si32_device.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\sim3l1xx.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\CPU\core_cm3.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\CPU\core_cmInstr.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\CPU\core_cmFunc.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\system_sim3l1xx.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ACCTR_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_AES_B_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_CMP_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ECRC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DCDC_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DMACTRL_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DMADESC_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DTM_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ENCDEC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EPCA_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EPCACH_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EXTOSC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_FLASHCTRL_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_I2C_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_IDAC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_LCD_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_LPTIMER_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_PLL_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_PVTOSC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_RTC_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SARADC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SPI_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_TIMER_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_UART_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_USART_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VMON_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VREF_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_WDTIMER_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_CLKCTRL_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_DEVICEID_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_DMAXBAR_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_LDO_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_LOCK_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBCFG_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBSTD_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBGP_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PMU_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_RSTSRC_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_SCONFIG_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_FLASHCTRL_A_Type.h)(0x55EF92B1)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VMON_B_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_RSTSRC_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_RSTSRC_A_Support.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_CLKCTRL_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_CLKCTRL_A_Support.h)(0x55EF92B2)
+I (.\ext_flash\ext_flash_include.h)(0x55EF9294)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SPI_B_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SPI_B_Support.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PBCFG_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PBCFG_A_Support.h)(0x55EF92B2)
+I (.\ext_flash\ext_flash_mcu.h)(0x55EF9294)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PBSTD_A_Type.h)(0x55EF92B2)
+I (.\arch\board_cfg.h)(0x55EF9292)
+I (.\ext_flash\ext_flash_hal.h)(0x55EF9294)
+I (.\ext_flash\ext_flash_tat.h)(0x55EF9294)
+I (.\arch\system_init.h)(0x55EF9292)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_WDTIMER_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PBGP_A_Type.h)(0x55EF92B2)
+I (.\boot\crc.h)(0x55EF9292)
+I (.\state\state.h)(0x55EF9294)
+F (.\boot\crc.c)(0x55EF9292)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\crc.o --omf_browse build\crc.crf --depend build\crc.d)
+I (.\boot\crc.h)(0x55EF9292)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+F (.\state\state.c)(0x55EF9294)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I. -I..\..\hal\drivers\si32Hal\CPU -I..\..\hal\drivers\si32Hal\SI32_Modules -I..\..\hal\drivers\si32Hal\sim3l1xx -I.\arch -I.\ext_flash -I.\inchip_flash -I.\boot -I.\state -I.\ext_flash --c99 --gnu-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DNDEBUG-o build\state.o --omf_browse build\state.crf --depend build\state.d)
+I (.\arch\system_init.h)(0x55EF9292)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_CLKCTRL_A_Type.h)(0x55EF92B2)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\si32WideTypes.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_CLKCTRL_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_CLKCTRL_A_Support.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\Si32_device.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\sim3l1xx.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\CPU\core_cm3.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\CPU\core_cmInstr.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\CPU\core_cmFunc.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\system_sim3l1xx.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ACCTR_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_AES_B_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_CMP_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ECRC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DCDC_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DMACTRL_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DMADESC_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_DTM_A_Registers.h)(0x55EF92B0)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_ENCDEC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EPCA_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EPCACH_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_EXTOSC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_FLASHCTRL_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_I2C_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_IDAC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_LCD_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_LPTIMER_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_PLL_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_PVTOSC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_RTC_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SARADC_A_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_SPI_B_Registers.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_TIMER_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_UART_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_USART_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VMON_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VREF_B_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_WDTIMER_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_DEVICEID_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_DMAXBAR_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_LDO_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_LOCK_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBCFG_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBSTD_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PBGP_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_PMU_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_RSTSRC_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_SIM3L1XX_SCONFIG_A_Registers.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PBSTD_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_WDTIMER_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PBCFG_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PBCFG_A_Support.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_RSTSRC_A_Type.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_RSTSRC_A_Support.h)(0x55EF92B2)
+I (..\..\hal\drivers\si32Hal\sim3l1xx\SI32_PBGP_A_Type.h)(0x55EF92B2)
+I (.\inchip_flash\inchip_flash.h)(0x55EF9294)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_FLASHCTRL_A_Type.h)(0x55EF92B1)
+I (..\..\hal\drivers\si32Hal\SI32_Modules\SI32_VMON_B_Type.h)(0x55EF92B2)
+I (state\state.h)(0x55EF9294)

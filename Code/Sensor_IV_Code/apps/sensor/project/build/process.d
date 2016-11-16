@@ -1,0 +1,10 @@
+.\build\process.o: ..\..\..\core\sys\process.c
+.\build\process.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\build\process.o: ..\..\..\core\sys/process.h
+.\build\process.o: ..\..\..\core\sys/pt.h
+.\build\process.o: ..\..\..\core\sys/lc.h
+.\build\process.o: ..\..\..\core\sys/lc-switch.h
+.\build\process.o: ..\..\..\core\sys/cc.h
+.\build\process.o: ..\..\..\cpu\si32\contiki-conf.h
+.\build\process.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\build\process.o: ..\..\..\core\sys/arg.h
